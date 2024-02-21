@@ -207,14 +207,15 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:You-ArE-My-DeViL/LeO.git</connection>
+    <developerConnection>scm:git:git@github.com:You-ArE-My-DeViL/LeO.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>http://github.com/You-ArE-My-DeViL/LeO.git</url>
   </scm>
 
   <prerequisites>
-    <maven>3.9.6</maven>
+    <maven>3.0.3</maven>
+
   </prerequisites>
 
 </project>
