@@ -8,26 +8,26 @@ import static org.hamcrest.Matchers.greaterThan;
 import static org.junit.Assert.assertThat;
 import static org.junit.matchers.JUnitMatchers.containsString;
 
-public class TestGreeter {
+public class TestHello {
 
-  private Greeter greeter;
+  private Hello hello;
 
   @Before
   public void setup() {
-    greeter = new Greeter();
+    hello = new Hello();
   }
 
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
 
-    assertThat(greeter.greet(someone), containsString(someone));
+    assertThat(hello.greet(someone), containsString(someone));
   }
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
     String someone = "World";
 
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+    assertThat(hello.greet(someone).length(), is(greaterThan(someone.length())));
   }
 }
