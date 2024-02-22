@@ -20,7 +20,7 @@ pipeline {
     post {
         success {
             // Archive the built artifacts
-            archiveArtifacts 'target/*.jar'
+            archiveArtifacts 'target'
         }
         failure {
             // Send a notification or perform actions in case of build failure
